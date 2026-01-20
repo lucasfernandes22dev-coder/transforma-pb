@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard | Transforma PB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Transforma <span>PB</span></h1>
+
+      <nav class="menu">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="cursos.html">Cursos</a>
+        <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+        <a href="index.html" class="btn">Sair</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- DASHBOARD -->
+  <section class="dashboard">
+    <div class="container">
+
+      <h2>Meus cursos</h2>
+
+      <div class="dashboard-grid">
+
+        <!-- CURSO -->
+        <div class="dashboard-card">
+          <h3>HTML e CSS</h3>
+          <p>Progresso do curso</p>
+
+          <div class="progress-bar">
+            <div class="progress" style="width: 40%;"></div>
+          </div>
+
+          <span class="progress-text">40% concluído</span>
+
+          <a href="aula.html" class="btn btn-primary">Continuar</a>
+        </div>
+
+        <!-- CURSO -->
+        <div class="dashboard-card">
+          <h3>Introdução à Tecnologia</h3>
+          <p>Progresso do curso
